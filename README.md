@@ -6,7 +6,12 @@
 2. Download glove embedding (glove.6B.300d.txt) and put it in a folder named embedding:
    https://nlp.stanford.edu/projects/glove/
 
-3. Run the code by command:
+3. Create conda environment:
+   ```js
+   conda env create -f enviroment.yaml
+   ```
+
+4. Run the code by command:
    ```js
    gunicorn -w 4 -b 0.0.0.0:8888 demo_web:server
    ```
