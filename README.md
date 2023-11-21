@@ -1,5 +1,13 @@
 # Fake-News-Detection-Web
 
+## About
+This is a demo website for the paper: "Style-Aware Fack News Detection".
+The model uses the construction of a word graph to capture the writing style of news, thus helping to discern the authenticity of the news.
+
+## Demo Website
+Link: http://140.113.24.124:8887/
+
+## Reproduce
 1. Download the model parameters, dataset:
    https://drive.google.com/drive/folders/1imN6Z_i5WdhfoOWvz90BdJv48B7m9UfX?usp=sharing
    
